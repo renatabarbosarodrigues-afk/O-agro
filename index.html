@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Agro – Agricultura Sustentável</title>
+
+  <!-- Fontes do Google: Playfair Display (título) + Inter (corpo) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Folha de estilos principal -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       CABEÇALHO: Título e tagline do site
+  ============================================= -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Ícone decorativo de folha -->
+      <span class="leaf-icon" aria-hidden="true">🌿</span>
+      <h1 class="site-title">O Agro</h1>
+      <p class="site-tagline">Cultivando consciência, colhendo futuro.</p>
+    </div>
+  </header>
+
+  <!-- =============================================
+       CONTEÚDO PRINCIPAL
+  ============================================= -->
+  <main class="main-content">
+
+    <!-- ------------------------------------------
+         SEÇÃO: Apresentação sobre agro sustentável
+    ------------------------------------------ -->
+    <section class="intro-section" aria-labelledby="intro-heading">
+      <h2 id="intro-heading" class="section-title">O que é agricultura sustentável?</h2>
+      <p class="intro-text">
+        A agricultura sustentável é um modelo de produção que busca equilibrar a
+        necessidade de alimentos com a preservação dos recursos naturais.
+        Ela respeita os ciclos da natureza, reduz o uso de agrotóxicos, cuida do
+        solo e da água, e garante que as gerações futuras também possam plantar
+        e colher.
+      </p>
+      <p class="intro-text">
+        Práticas como rotação de culturas, compostagem, agrofloresta e irrigação
+        eficiente são pilares desse sistema que une produtividade e
+        responsabilidade ambiental.
+      </p>
+    </section>
+
+    <!-- ------------------------------------------
+         SEÇÃO: Quiz interativo
+    ------------------------------------------ -->
+    <section class="quiz-section" aria-labelledby="quiz-heading">
+      <h2 id="quiz-heading" class="section-title">Teste seus conhecimentos</h2>
+      <p class="quiz-subtitle">Responda as 3 perguntas abaixo e veja como você está!</p>
+
+      <!-- Formulário do quiz (sem uso de <form> para evitar submissão padrão) -->
+      <div class="quiz-container" id="quiz-container">
+
+        <!-- ---- Pergunta 1 ---- -->
+        <article class="question-card" aria-labelledby="q1-label">
+          <p id="q1-label" class="question-text">
+            <span class="question-number">1.</span>
+            Qual prática ajuda a conservar a umidade do solo e reduzir ervas daninhas?
+          </p>
+          <ul class="options-list" role="list">
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q1" value="a" class="option-input" />
+                <span class="option-text">Queimada controlada</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q1" value="b" class="option-input" />
+                <span class="option-text">Cobertura morta (mulching)</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q1" value="c" class="option-input" />
+                <span class="option-text">Uso intensivo de fertilizantes</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q1" value="d" class="option-input" />
+                <span class="option-text">Irrigação por inundação</span>
+              </label>
+            </li>
+          </ul>
+        </article>
+
+        <!-- ---- Pergunta 2 ---- -->
+        <article class="question-card" aria-labelledby="q2-label">
+          <p id="q2-label" class="question-text">
+            <span class="question-number">2.</span>
+            O que é rotação de culturas?
+          </p>
+          <ul class="options-list" role="list">
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q2" value="a" class="option-input" />
+                <span class="option-text">Plantar sempre a mesma cultura no mesmo local</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q2" value="b" class="option-input" />
+                <span class="option-text">Alternar diferentes culturas em uma mesma área ao longo do tempo</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q2" value="c" class="option-input" />
+                <span class="option-text">Girar o maquinário agrícola entre fazendas</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q2" value="d" class="option-input" />
+                <span class="option-text">Importar sementes de outros países</span>
+              </label>
+            </li>
+          </ul>
+        </article>
+
+        <!-- ---- Pergunta 3 ---- -->
+        <article class="question-card" aria-labelledby="q3-label">
+          <p id="q3-label" class="question-text">
+            <span class="question-number">3.</span>
+            Qual sistema integra árvores, cultivos e animais na mesma área?
+          </p>
+          <ul class="options-list" role="list">
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q3" value="a" class="option-input" />
+                <span class="option-text">Monocultura intensiva</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q3" value="b" class="option-input" />
+                <span class="option-text">Hidroponia vertical</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q3" value="c" class="option-input" />
+                <span class="option-text">Agrofloresta (sistema agroflorestal)</span>
+              </label>
+            </li>
+            <li>
+              <label class="option-label">
+                <input type="radio" name="q3" value="d" class="option-input" />
+                <span class="option-text">Agricultura de precisão via drones</span>
+              </label>
+            </li>
+          </ul>
+        </article>
+
+      </div><!-- /quiz-container -->
+
+      <!-- Botão de envio das respostas -->
+      <div class="quiz-actions">
+        <button class="submit-btn" id="submit-btn" type="button">
+          Enviar respostas
+        </button>
+      </div>
+
+      <!-- Área de feedback (preenchida pelo JavaScript) -->
+      <div class="feedback-area" id="feedback-area" aria-live="polite" hidden></div>
+
+    </section><!-- /quiz-section -->
+
+  </main>
+
+  <!-- =============================================
+       RODAPÉ
+  ============================================= -->
+  <footer class="site-footer">
+    <p>🌱 O Agro &mdash; Juntos por uma agricultura mais sustentável.</p>
+  </footer>
+
+  <!-- Script principal (carregado ao final para não bloquear o HTML) -->
+  <script src="script.js"></script>
+
+</body>
+</html>
